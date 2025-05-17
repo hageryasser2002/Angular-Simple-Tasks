@@ -1,0 +1,33 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Coffee",
+      "price": 75,
+      "quantity": 20
+    },
+    {
+      "name": "Oil",
+      "price": 45,
+      "quantity": "200",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Juice",
+      "price": 13,
+      "quantity": 40
+    },
+    {
+      "id": "4",
+      "name": "Milk",
+      "price": 25,
+      "quantity": 40
+    }
+  ],
+  "users": [
+    {
+      "id": "41cf"
+    }
+  ]
+}

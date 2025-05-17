@@ -1,0 +1,17 @@
+<div class="mt-5 p-4 bg-dark text-light">
+    <div class="container">
+        <h2 class="text-center text-danger mb-5">Product Details {{product.id}}</h2>
+
+        <p class="lead">Product Name:   {{product.name}}</p>
+        <p class="lead">Product Price:   {{product.price | currency}}</p>
+        <p class="lead">Product Quantity:   {{product.quantity}}</p>
+
+        <i class="text-warning bi bi-star-fill"></i>
+        <i class="text-warning bi bi-star-fill"></i>
+        <i class="text-warning bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>   
+    </div>
+
+    <button class="btn btn-info mt-5" [routerLink]="'/products'">Back To Products</button>
+</div>
